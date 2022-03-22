@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="cordova-plugin-applepay"
-      version="5.0.0">
-
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-applepay" version="6.0.0">
     <name>Apple Pay</name>
     <description>Implements Apple Pay.</description>
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
 
     <platform name="ios">
-
         <js-module src="www/applepay.js" name="payment">
             <clobbers target="ApplePay" />
         </js-module>
@@ -24,7 +20,5 @@
                 <param name="ios-package" value="CDVApplePay"/>
             </feature>
         </config-file>
-
     </platform>
-
 </plugin>
